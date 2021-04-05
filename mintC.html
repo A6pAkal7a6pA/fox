@@ -55,69 +55,72 @@
 			</div>
 		</header>
 
-		<section class="gallery">
-			<div class="gallery__body">
-				<div class="gallery__search gallery-search">
-					<div class="gallery-search__column">
-						<input type="text" placeholder="Search for assets">
-					</div>
-					<div class="gallery-search__column">
-						<div class="gallery-search__item">
-							<span>Already</span> minted
-						</div>
-						<div class="gallery-search__item">
-							<div class="gallery-search__toggles">
-								<input type="checkbox" name="checkbox1" id="checkbox1" class="gallery-search__ios-toggle" checked/>
-								<label for="checkbox1" class="gallery-search__checkbox-label" data-off="off" data-on="on"></label>
+		<section class="mint-c">
+			<div class="mint-c__body">
+				<div class="mint-c__title">
+					Mint an item
+				</div>
+				<div class="mint-c__list">
+					<div class="mint-c__item">
+						<div class="mint-c__item-row">
+							<div class="mint-c__item-price">
+								Remaining items
+							</div>
+							<div class="mint-c__item-amount">
+								1275
 							</div>
 						</div>
-						<div class="gallery-search__item">
-							<span>Still</span> available
+						<div class="mint-c__subtitle">
+							You will receive a random item from the remaining stock.
+						</div>
+					</div>
+					<div class="mint-c__item">
+						<div class="mint-c__item-row">
+							<div class="mint-c__item-price">
+								Current price
+							</div>
+							<div class="mint-c__item-amount">
+								0.0023 ETH
+							</div>
+						</div>
+						<div class="mint-c__subtitle">
+							The price is increased by 0.0001 ETH with every item minted.
 						</div>
 					</div>
 				</div>
+				<div class="mint-c__button button" id="popup-mint-link">
+					<span class="mint-c__link button__link" >
+						Get one now
+					</span>
+				</div>
+			</div>
+		</section>
 
-				<div class="gallery__images gallery-images">
-					<div class="gallery-images__item">
-						<img src="img/gallery-img.jpg" alt="">
-						<a href="gallery_details.html">
-							AssetName
-						</a>
+		<section class="mint-popup">
+			<div class="mint-popup__body">
+				<div class="mint-popup__content">
+					<div class="mint-popup__exit">
+						<span class="mint-popup__exit-link">
+							X
+						</span>
 					</div>
-					<div class="gallery-images__item">
-						<img src="img/gallery-img.jpg" alt="">
-						<a href="gallery_details.html">
-							AssetName
-						</a>
+					<div class="mint-popup__title">
+						Congrats, you own this beauty!
 					</div>
-					<div class="gallery-images__item">
-						<img src="img/gallery-img.jpg" alt="">
-						<a href="gallery_details.html">
-							AssetName
-						</a>
+					<div class="mint-popup__image">
+						<img src="img/mint-img.jpg" alt="">
+						<span>
+							Asset name
+						</span>
 					</div>
-					<div class="gallery-images__item">
-						<img src="img/gallery-img.jpg" alt="">
-						<a href="gallery_details.html">
-							AssetName
-						</a>
-					</div>
-					<div class="gallery-images__item">
-						<img src="img/gallery-img.jpg" alt="">
-						<a href="gallery_details.html">
-							AssetName
-						</a>
-					</div>
-					<div class="gallery-images__item">
-						<img src="img/gallery-img.jpg" alt="">
-						<a href="gallery_details.html">
-							AssetName
+					<div class="mint-popup__subtitle">
+						<a href="#" class="mint-popup__subtitle-link">
+							Check all the products that will get you royalties on this item here.
 						</a>
 					</div>
 				</div>
 			</div>
 		</section>
-
 
 		<footer class="footer">
 			<div class="container">
