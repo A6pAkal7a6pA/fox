@@ -19,15 +19,11 @@ array.forEach(el => {
 		}
 	})
 });
-
-let locations = window.location;
-let thisLocations = this.location;
-
-let menu = document.querySelectorAll(".menu__list-item");
-menu.forEach(el => {
-	el.childNodes.forEach(el => {
-	});
-});
+const loc = window.location.href,
+	links = document.querySelectorAll('.menu__list-link');
+links.forEach((link) => {
+	if (link.href == loc) link.classList.add('active');
+})
 
 document.querySelector(".asset-info__pub-message")?.addEventListener("click", function () {
 	document.querySelector(".gallery-dop-popup-sww").classList.toggle("active");
